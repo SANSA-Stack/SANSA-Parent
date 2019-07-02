@@ -881,6 +881,7 @@
 									<jvmArg>-Xss10m</jvmArg>
 									<jvmArg>-Xms1024m</jvmArg>
 									<jvmArg>-Xmx1024m</jvmArg>
+									<jvmArg>-Xss2048K</jvmArg>
 									<jvmArg>-XX:PermSize=${PermGen}</jvmArg>
 									<jvmArg>-XX:MaxPermSize=${MaxPermGen}</jvmArg>
 									<jvmArg>-XX:ReservedCodeCacheSize=${CodeCacheSize}</jvmArg>
