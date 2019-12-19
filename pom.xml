@@ -54,6 +54,7 @@
 		<jena.version>3.11.0</jena.version>
 		<jsa.subversion>1</jsa.subversion>
 		<jsa.version>${jena.version}-${jsa.subversion}</jsa.version>
+		<aws.version>1.9.6</aws.version>
 
 		<!-- Jetty is pulled in from at least sparqlify - the current dep declarations
 			do not cover all mentioned jetty deps -->
