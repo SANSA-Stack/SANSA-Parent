@@ -4,7 +4,7 @@
 
 	<groupId>net.sansa-stack</groupId>
 	<artifactId>sansa-parent</artifactId>
-	<version>0.7.0</version>
+	<version>0.7.1</version>
 	<packaging>pom</packaging>
 	<name>SANSA - Parent</name>
 
@@ -71,7 +71,7 @@
 		<hadoop.common.version>${hadoop.version}</hadoop.common.version>
 
 		<jena.version>3.13.1</jena.version>
-		<jsa.subversion>1-SNAPSHOT</jsa.subversion>
+		<jsa.subversion>1</jsa.subversion>
 		<jsa.version>${jena.version}-${jsa.subversion}</jsa.version>
 
 		<rdf4j.version>2.3.2</rdf4j.version>
@@ -527,7 +527,7 @@
 			<dependency>
 				<groupId>org.aksw.sparqlify</groupId>
 				<artifactId>sparqlify-core</artifactId>
-				<version>0.8.8-SNAPSHOT</version>
+				<version>0.8.8</version>
 				<exclusions>
 					<!-- <exclusion> <groupId>cglib</groupId> <artifactId>cglib</artifactId>
 						</exclusion> -->
@@ -712,7 +712,7 @@
 			<dependency>
 				<groupId>org.aksw.bsbm</groupId>
 				<artifactId>bsbm-core</artifactId>
-				<version>3.1.4-SNAPSHOT</version>
+				<version>3.1.4</version>
 				<scope>test</scope>
 			</dependency>
 
