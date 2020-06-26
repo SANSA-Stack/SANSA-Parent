@@ -702,15 +702,10 @@
 			<dependency>
 				<groupId>org.scalatest</groupId>
 				<artifactId>scalatest_${scala.binary.version}</artifactId>
-				<version>3.1.2</version>
+				<version>3.0.8</version>
 				<scope>test</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>org.scalatestplus</groupId>
-				<artifactId>scalatestplus-junit_${scala.binary.version}</artifactId>
-				<version>1.0.0-M2</version>
-			</dependency>
 			<dependency>
 				<groupId>org.scalatestplus</groupId>
 				<artifactId>junit-4-12_${scala.binary.version}</artifactId>
