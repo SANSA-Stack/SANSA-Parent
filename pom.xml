@@ -191,6 +191,19 @@
 				<artifactId>jena-sparql-api-core</artifactId>
 				<version>${jsa.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>org.aksw.jena-sparql-api</groupId>
+				<artifactId>jena-sparql-api-rx</artifactId>
+				<version>${jsa.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.aksw.jena-sparql-api</groupId>
+				<artifactId>jena-sparql-api-io-core</artifactId>
+				<version>${jsa.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.aksw.jena-sparql-api</groupId>
 				<artifactId>jena-sparql-api-mapper-annotations</artifactId>
@@ -199,11 +212,6 @@
 			<dependency>
 				<groupId>org.aksw.jena-sparql-api</groupId>
 				<artifactId>jena-sparql-api-virtuoso</artifactId>
-				<version>${jsa.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.aksw.jena-sparql-api</groupId>
-				<artifactId>jena-sparql-api-server-standalone</artifactId>
 				<version>${jsa.version}</version>
 			</dependency>
 			<dependency>
