@@ -644,6 +644,14 @@
 				<version>${jena.version}</version>
 			</dependency>
 
+
+			<!-- Default (mostly non-splitting) hadoop-based RDF record reading using jena -->
+			<dependency>
+				<groupId>org.apache.jena</groupId>
+				<artifactId>jena-elephas-io</artifactId>
+				<version>${jena.version}</version>
+			</dependency>
+
 			<!-- Used in query layer apparently -->
 			<dependency>
 				<groupId>org.apache.jena</groupId>
