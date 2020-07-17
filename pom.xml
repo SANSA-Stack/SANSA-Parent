@@ -210,6 +210,13 @@
 				<artifactId>jena-sparql-api-mapper-annotations</artifactId>
 				<version>${jsa.version}</version>
 			</dependency>
+
+                        <dependency>
+                                <groupId>org.aksw.jena-sparql-api</groupId>
+                                <artifactId>jena-sparql-api-mapper-proxy</artifactId>
+                                <version>${jsa.version}</version>
+                        </dependency>
+
 			<dependency>
 				<groupId>org.aksw.jena-sparql-api</groupId>
 				<artifactId>jena-sparql-api-virtuoso</artifactId>
