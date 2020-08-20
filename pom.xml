@@ -52,7 +52,7 @@
 		<hadoop.common.version>${hadoop.version}</hadoop.common.version>
 
 		<jena.version>3.15.0</jena.version>
-		<jsa.subversion>1-SNAPSHOT</jsa.subversion>
+		<jsa.subversion>1</jsa.subversion>
 		<jsa.version>${jena.version}-${jsa.subversion}</jsa.version>
 
 		<rdf4j.version>2.3.2</rdf4j.version>
