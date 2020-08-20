@@ -628,7 +628,7 @@
 			<dependency>
 				<groupId>org.aksw.sparqlify</groupId>
 				<artifactId>sparqlify-core</artifactId>
-				<version>0.8.9-SNAPSHOT</version>
+				<version>0.8.9</version>
 				<exclusions>
 					<!-- <exclusion> <groupId>cglib</groupId> <artifactId>cglib</artifactId>
 						</exclusion> -->
